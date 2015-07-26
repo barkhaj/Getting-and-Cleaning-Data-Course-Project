@@ -7,7 +7,7 @@
   
   #Download and unzip file
   zipFile<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-  destFile="assignWK3_Dataset.zip"
+  destFile<-"assignWK3_Dataset.zip"
   if(!file.exists(destFile)) {
       download.file(zipFile,destFile)
     }
